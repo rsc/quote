@@ -26,3 +26,10 @@ func TestGo(t *testing.T) {
 		t.Errorf("Go() = %q, want %q", out, go1)
 	}
 }
+
+func TestOpt(t *testing.T) {
+	opt := "If a program is too slow, it must have a loop."
+	if out := Opt(); out != opt {
+		t.Errorf("Opt() = %q, want %q", out, opt)
+	}
+}
