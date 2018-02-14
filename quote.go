@@ -5,9 +5,11 @@
 // Package quote collects pithy sayings.
 package quote // import "rsc.io/quote"
 
+import "rsc.io/sampler"
+
 // Hello returns a greeting.
 func Hello() string {
-	return "Hello, world."
+	return sampler.Hello()
 }
 
 // Glass returns a useful phrase for world travelers.
