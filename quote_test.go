@@ -19,3 +19,11 @@ func TestGlass(t *testing.T) {
 		t.Errorf("Glass() = %q, want %q", out, glass)
 	}
 }
+
+// Go returns a Go proverb.
+func TestGo(t *testing.T) {
+	go1 := "Don't communicate by sharing memory. Share memory by communicating."
+	if out := Go(); out != go1 {
+		t.Errorf("Go() = %q, want %q", out, go1)
+	}
+}
