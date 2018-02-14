@@ -9,3 +9,9 @@ package quote // import "rsc.io/quote"
 func Hello() string {
 	return "Hello, world."
 }
+
+// Glass returns a useful phrase for world travelers.
+func Glass() string {
+	// See http://www.oocities.org/nodotus/hbglass.html.
+	return "I can eat glass and it doesn't hurt me."
+}
