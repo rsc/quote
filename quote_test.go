@@ -4,7 +4,14 @@
 
 package quote
 
-import "testing"
+import (
+	"os"
+	"testing"
+)
+
+func init() {
+	os.Setenv("LC_ALL", "en")
+}
 
 func TestHello(t *testing.T) {
 	hello := "Hello, world."
