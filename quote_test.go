@@ -21,7 +21,7 @@ func TestGlass(t *testing.T) {
 }
 
 func TestGo(t *testing.T) {
-	go1 := "Don't communicate by sharing memory. Share memory by communicating."
+	go1 := "Don't communicate by sharing memory, share memory by communicating."
 	if out := Go(); out != go1 {
 		t.Errorf("Go() = %q, want %q", out, go1)
 	}
