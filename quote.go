@@ -15,3 +15,8 @@ func Glass() string {
 	// See http://www.oocities.org/nodotus/hbglass.html.
 	return "I can eat glass and it doesn't hurt me."
 }
+
+// Go returns a Go proverb.
+func Go() string {
+	return "Don't communicate by sharing memory, share memory by communicating."
+}
