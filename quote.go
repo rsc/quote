@@ -7,6 +7,8 @@ package quote // import "rsc.io/quote"
 
 import "rsc.io/sampler"
 
+// A CHANGE!
+
 // Hello returns a greeting.
 func Hello() string {
 	return sampler.Hello()
