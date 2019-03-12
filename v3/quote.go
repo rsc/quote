@@ -12,6 +12,11 @@ func HelloV3() string {
 	return sampler.Hello()
 }
 
+// Concurrency returns a Go proverb about concurrency.
+func Concurrency() string {
+	return "Concurrency is not parallelism."
+}
+
 // Glass returns a useful phrase for world travelers.
 func GlassV3() string {
 	// See http://www.oocities.org/nodotus/hbglass.html.
