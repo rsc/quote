@@ -1,3 +1,5 @@
-module "rsc.io/quote"
+module rsc.io/quote/v4
 
-require "rsc.io/sampler" v1.3.0
+go 1.15
+
+require rsc.io/sampler v1.3.0
